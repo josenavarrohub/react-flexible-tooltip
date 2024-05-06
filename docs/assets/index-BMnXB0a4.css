@@ -1,1 +1,62 @@
-._c-flexible-tooltip_1ixxo_1 ._text_1ixxo_1{cursor:help;color:#a21000;font-size:16px;text-decoration:3px underline dotted #a21000}._c-flexible-tooltip_1ixxo_1 ._tip_1ixxo_7{position:fixed;display:block;border-radius:5px;max-width:400px;padding:16px;background-color:#ecd896;color:#000;filter:drop-shadow(0 4px 8px rgba(0,0,0,.4))}._c-flexible-tooltip_1ixxo_1 ._tip_1ixxo_7:before{content:"";position:absolute;left:50%;translate:-50%;width:16px;height:16px;background-color:#ecd896;rotate:45deg}._c-flexible-tooltip_1ixxo_1 ._tip--above_1ixxo_27:before{bottom:-6px}._c-flexible-tooltip_1ixxo_1 ._tip--below_1ixxo_30:before{top:-6px}*{margin:0;padding:0;box-sizing:border-box}body{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;height:100vh;background:#000 url(/assets/bg-kltxUGt3.png) left bottom no-repeat;background-attachment:fixed;font-family:Arial,Helvetica,sans-serif;color:#333}main{max-width:800px;min-height:100vh;margin:0 auto}main section{min-height:100vh;padding:10px 40px;background-color:#f9f9f9}main p{line-height:1.4;margin-bottom:30px}
+._c-flexible-tooltip_1ixxo_1 ._text_1ixxo_1 {
+  cursor: help;
+  color: #a21000;
+  font-size: 16px;
+  text-decoration: 3px underline dotted #a21000;
+}
+._c-flexible-tooltip_1ixxo_1 ._tip_1ixxo_7 {
+  position: fixed;
+  display: block;
+  border-radius: 5px;
+  max-width: 400px;
+  padding: 16px;
+  background-color: #ecd896;
+  color: #000;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
+}
+._c-flexible-tooltip_1ixxo_1 ._tip_1ixxo_7:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  width: 16px;
+  height: 16px;
+  background-color: #ecd896;
+  rotate: 45deg;
+}
+._c-flexible-tooltip_1ixxo_1 ._tip--above_1ixxo_27:before {
+  bottom: -6px;
+}
+._c-flexible-tooltip_1ixxo_1 ._tip--below_1ixxo_30:before {
+  top: -6px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background: #000 url(assets/bg-kltxUGt3.png) left bottom no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+main {
+  max-width: 800px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+main section {
+  min-height: 100vh;
+  padding: 10px 40px;
+  background-color: #f9f9f9;
+}
+main p {
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
