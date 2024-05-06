@@ -1,0 +1,38 @@
+.c-flexible-tooltip {
+  .text {
+    cursor: help;
+	color: #a21000;
+	font-size: 16px;
+    text-decoration: 3px underline dotted #a21000;
+  }
+
+  .tip {
+    position: fixed;
+    display: block;
+    border-radius: 5px;
+    max-width: 400px;
+    padding: 16px;
+    background-color: #ecd896;
+    color: black;
+	filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      translate: -50%;
+      width: 16px;
+      height: 16px;
+      background-color: #ecd896;
+      rotate: 45deg;
+    }
+
+    &--above::before {
+      bottom: -6px;
+    }
+
+    &--below::before {
+      top: -6px;
+    }
+  }
+}
