@@ -41,7 +41,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   height: 100vh;
-  background: #000 url(./assets/bg-kltxUGt3.png) left bottom no-repeat;
+  background: #000 url("./assets/bg-kltxUGt3.png") left bottom no-repeat;
   background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
